@@ -1,0 +1,1 @@
+curl -X POST --data '{"event_definition_description":"test.py"}' --url http://127.0.0.1:4000

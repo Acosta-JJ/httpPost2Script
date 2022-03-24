@@ -1,0 +1,10 @@
+[Unit]
+Description=Servidor http que gestiona las peticiones de POST de Graylog para ejecutar scripts en consecuencia
+ 
+[Service]
+User=root 
+ExecStart=/usr/bin/python3 /opt/http_request_handler/http_handler.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
