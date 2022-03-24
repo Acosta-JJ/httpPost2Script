@@ -1,3 +1,0 @@
-
-#####################################################################################################
-POST / HTTP/1.1 | Script ejecutado: /opt/http_request_handler/scripts/test No se ha podido ejecutar el script | 127.0.0.1:42650
